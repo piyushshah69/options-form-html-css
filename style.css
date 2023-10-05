@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster+Two:wght@400;700&family=Montserrat:wght@300;400;600&family=Poppins:wght@300;400;500;600&family=Quicksand:wght@400;600&family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif);
+}
+
+h2{
+    font-weight: 500;
+}
+
+.container{
+    max-width: 43%;
+    margin: 100px auto;
+    padding: 30px 30px;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    display: inline-block;
+    width: 31%;
+    border: 1.5px solid rgb(206, 205, 205);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+button{
+    text-align: start;
+    margin: 12px 0;
+    background-color: white;
+    border: 1px solid rgb(206, 205, 205);
+    padding: 10px 18px;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 3px 20px rgb(0 0 0 / 2%);
+}
+
+button:active{
+    border-color: black;
+    color: black;
+    box-shadow: none;
+}
+
